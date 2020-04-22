@@ -111,7 +111,7 @@ describe("Operações", function() {
         expect($("#resultado").val()).toBe($(this).text());
         $("#resultado").val("");
       });
-    })
+    }) 
 
     it("não deve adicionar dois pontos seguidos.", function(){
       $("button.numero:contains(.)").click();
